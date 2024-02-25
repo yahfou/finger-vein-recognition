@@ -12,26 +12,26 @@ for filename in os.listdir(directory_name):
         finger_type = title[3]
         
         if finger_type == '02':            
-            cv2.imwrite('C:/Users/yahfou/Desktop/datasett/02/'+man_type+'/'+finger,img)
+            cv2.imwrite('C:/Users/yahfou/Desktop/dataset/02/'+man_type+'/'+finger,img)
             cv2.imwrite('C:/Users/yahfou/Desktop/test_dataset/'+finger,img)
             
         if finger_type == '03':
-            cv2.imwrite('C:/Users/yahfou/Desktop/datasett/03/'+man_type+'/'+finger,img)
+            cv2.imwrite('C:/Users/yahfou/Desktop/dataset/03/'+man_type+'/'+finger,img)
             cv2.imwrite('C:/Users/yahfou/Desktop/test_dataset/'+finger,img)
             
         if finger_type == '04':
-            cv2.imwrite('C:/Users/yahfou/Desktop/datasett/04/'+man_type+'/'+finger,img)
+            cv2.imwrite('C:/Users/yahfou/Desktop/dataset/04/'+man_type+'/'+finger,img)
             cv2.imwrite('C:/Users/yahfou/Desktop/test_dataset/'+finger,img)
             
         if finger_type == '07':
-            cv2.imwrite('C:/Users/yahfou/Desktop/datasett/07/'+man_type+'/'+finger,img)
+            cv2.imwrite('C:/Users/yahfou/Desktop/dataset/07/'+man_type+'/'+finger,img)
             cv2.imwrite('C:/Users/yahfou/Desktop/test_dataset/'+finger,img)
             
         if finger_type == '08':
-            cv2.imwrite('C:/Users/yahfou/Desktop/datasett/08/'+man_type+'/'+finger,img)
+            cv2.imwrite('C:/Users/yahfou/Desktop/dataset/08/'+man_type+'/'+finger,img)
             cv2.imwrite('C:/Users/yahfou/Desktop/test_dataset/'+finger,img)
         
         if finger_type == '09':
-            cv2.imwrite('C:/Users/yahfou/Desktop/datasett/09/'+man_type+'/'+finger,img)
+            cv2.imwrite('C:/Users/yahfou/Desktop/dataset/09/'+man_type+'/'+finger,img)
             cv2.imwrite('C:/Users/yahfou/Desktop/test_dataset/'+finger,img)
 
