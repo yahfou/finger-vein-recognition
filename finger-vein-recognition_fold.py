@@ -16,7 +16,7 @@ for filename in os.listdir(directory_name):
             cv2.imwrite('XXX/XXX/XXX.../test_dataset/'+finger,img)               # 修改為test_dataset(輸入測試用)的位置
             
         if finger_type == '03':
-            cv2.imwrite(XXX/XXX/XXX.../dataset/03/'+man_type+'/'+finger,img)     # 修改為dataset的位置
+            cv2.imwrite('XXX/XXX/XXX.../dataset/03/'+man_type+'/'+finger,img)     # 修改為dataset的位置
             cv2.imwrite('XXX/XXX/XXX.../test_dataset/'+finger,img)               # 修改為test_dataset(輸入測試用)的位置
             
         if finger_type == '04':
