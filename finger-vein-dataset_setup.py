@@ -151,6 +151,6 @@ for f_type in range(2,10):
             
         array_of_img.clear()
         
-        cv2.imwrite('C:/Users/yahfou/Desktop/brin_temp_t/'+finger+'/'+man+'_'+finger+'_'+str(br_mean)+'.png',BRP)
+        cv2.imwrite('C:/Users/yahfou/Desktop/dataset/'+man+'_'+finger+'_'+str(br_mean)+'.png',BRP)
 #-------------------------------------------------------------------------------------------------------------------
     
