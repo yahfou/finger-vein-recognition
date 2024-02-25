@@ -107,8 +107,8 @@ def search_branchpoints(imskel):
 #-------------------------------------------------------------------------------------------------------------------
 
 
-read_directory("C:/Users/yahfou/Desktop/br360")
-read_test_directory = 'C:/Users/yahfou/Desktop/br21800'
+read_directory("XXX/XXX/XXX.../dataset")    # 將此處路徑改為你設定的特徵圖資料庫路徑
+read_test_directory = "XXX/XXX/XXX.../test_dataset"    # 將此處路徑改為你設定的測試資料庫路徑
 
 
 rese = {}
