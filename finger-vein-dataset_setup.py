@@ -113,8 +113,8 @@ for f_type in range(2,10):
     finger = str(f_type).zfill(2)
     
     for man_num in range(1, 61):
-        man = str(man_num).zfill(2)
-        read_directory('C:/Users/yahfou/Desktop/test_dataset/'+finger+'/'+ man )
+        man = str(man_num).zfill(3)
+        read_directory('C:/Users/yahfou/Desktop/dataset/'+finger+'/'+ man )
 
         blank_image = np.zeros((141, 590, 3), dtype=np.uint8)
         blank_image1 = cv2.cvtColor(blank_image, cv2.COLOR_RGB2GRAY)
@@ -151,6 +151,6 @@ for f_type in range(2,10):
             
         array_of_img.clear()
         
-        cv2.imwrite('C:/Users/yahfou/Desktop/dataset/'+man+'_'+finger+'_'+str(br_mean)+'.png',BRP)
+        cv2.imwrite('C:/Users/yahfou/Desktop/feature_dataset/'+man+'_'+finger+'_'+str(br_mean)+'.png',BRP)
 #-------------------------------------------------------------------------------------------------------------------
     
