@@ -114,7 +114,7 @@ for f_type in range(2,10):
     
     for man_num in range(1, 61):
         man = str(man_num).zfill(2)
-        read_directory('C:/Users/yahfou/Desktop/yee/'+finger+'/'+ man )
+        read_directory('C:/Users/yahfou/Desktop/test_dataset/'+finger+'/'+ man )
 
         blank_image = np.zeros((141, 590, 3), dtype=np.uint8)
         blank_image1 = cv2.cvtColor(blank_image, cv2.COLOR_RGB2GRAY)
