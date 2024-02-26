@@ -1,1 +1,2 @@
 # finger-vein-recognition
+This project involves a small-scale test using the Nelder-Mead method to validate the effectiveness of my image processing approach based on the PLUSVein-FV3 database. Please note that the implementation of the Nelder-Mead method is not included in this repository. For more details about the Nelder-Mead method, you can refer to [this project](https://github.com/yahfou/Nelder-Mead-method_python-version).
