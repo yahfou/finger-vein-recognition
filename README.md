@@ -1,2 +1,21 @@
 # finger-vein-recognition
 This project involves a small-scale test using the Nelder-Mead method to validate the effectiveness of my image processing approach based on the PLUSVein-FV3 database. Please note that the implementation of the Nelder-Mead method is not included in this repository. For more details about the Nelder-Mead method, you can refer to [this project](https://github.com/yahfou/Nelder-Mead-method_python-version).
+## Introduction
+In this project, I tried various image processing techniques to skeletonize the vein patterns in finger images. Additionally, I employed a branching point detection algorithm to analyze the skeletonized vein patterns. For feature extraction, I overlaid five images of the same user's corresponding fingers to create a composite feature map, which was then used for matching tests.
+### Features
+**Image Processing Approach:** Utilizing traditional image processing techniques not only results in more intuitive and flexible features but also enhances compatibility with lower-performance devices.
+
+**Branch Point Detection Algorithm:** Capable of accurately identifying branching points in vein patterns while disregarding endpoints of lines.
+
+**Feature Set Overlay:** During the creation of the feature set, five images corresponding to the same user's individual fingers are overlaid to generate a comprehensive feature map. This process ensures irreversible high security and effectively saves database space.
+## Requirements
+* opencv-python 4.6.0
+* scikit-image 0.19.3
+* os
+* numpy
+* random
+* re
+* natsorted
+* PySimpleGUI
+## Descriptions
+**Image Processing:** In this project, I primarily utilize a non-sharp mask to enhance the contrast of veins within the muscle tissue. This method is crucial for the subsequent skeletonization of vein patterns. Therefore, I employ the Nelder-Mead method to optimize the gamma value of the non-sharp mask, aiming to achieve the desired skeletonization results.The following presents a comparison between the original image and the sharpened result, along with the skeletonization results for five different samples of the same finger.
