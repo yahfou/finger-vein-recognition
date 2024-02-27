@@ -35,3 +35,8 @@ After obtaining the dataset, organize the necessary folders by downloading and e
 Next, use `finger-vein-dataset_setup.py` to generate feature sets from the `dataset` folder and store them in the `feature_dataset` folder. Finally, use `finger-vein-recognition.py` for testing. You can experiment with different image processing methods, workflows, and parameters to adjust the processing results. Additionally, you can modify the alpha value to change the recognition threshold (typically, a higher threshold is used to tolerate false rejection rates and avoid more severe false acceptance rates).
 
 <img src="sample/GUI.PNG" width="750">
+
+## License
+
+The MIT License ([MIT](https://mit-license.org/))   
+Copyright © 2024 <https://github.com/yahfou>
