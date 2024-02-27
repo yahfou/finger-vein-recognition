@@ -24,4 +24,7 @@ In this project, I tried various image processing techniques to skeletonize the 
 ![Branch Point Detection Algorithm](sample/Branch_Point_Detection_Algorithm.png)
 **Feature Set Overlay:** After extracting the positions of branch points, we observed user-dependent shifts in different samples due to variations in finger placement on the device. To address this issue, we overlaid the five samples from the PLUSVein-FV3 dataset and performed dilation on the detected branch points. The resulting square region represents the spatial variation of branch points caused by different finger placements. The diagram below illustrates the process of creating the feature set.
 ![Feature_Set_Overlay](sample/Feature_Set_Overlay.png)
+## Usage
+
+
 
