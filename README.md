@@ -25,6 +25,10 @@ In this project, I tried various image processing techniques to skeletonize the 
 **Feature Set Overlay:** After extracting the positions of branch points, we observed user-dependent shifts in different samples due to variations in finger placement on the device. To address this issue, we overlaid the five samples from the PLUSVein-FV3 dataset and performed dilation on the detected branch points. The resulting square region represents the spatial variation of branch points caused by different finger placements. The diagram below illustrates the process of creating the feature set.
 ![Feature_Set_Overlay](sample/Feature_Set_Overlay.png)
 ## Usage
+This project is based on the LED part images of the PLUSVein-FV3 dataset. Due to usage agreements and privacy considerations, the original dataset images are not included in this repository. You can personally apply and use the dataset from the [PLUSVein-FV3 website](https://wavelab.at/sources/PLUSVein-FV3/).
 
+After obtaining the dataset, organize the necessary folders by downloading and extracting `all-dataset.rar` from this repository. Utilize `finger-vein-recognition_fold.py` to classify each finger for every user in the PLUSVein-FV3 dataset, with the outcomes stored in the `dataset` folder.Furthermore, populate the `test_dataset` folder with all finger images. Maintaining two similar folders facilitates a more detailed examination of variations among samples from the same finger while preventing confusion between different finger types.
+
+Next, use `finger-vein-dataset_setup.py` to generate feature sets from the `dataset` folder and store them in the `feature_dataset` folder. Finally, use `finger-vein-recognition.py` for testing. You can experiment with different image processing methods, workflows, and parameters to adjust the processing results. Additionally, you can modify the alpha value to change the recognition threshold (typically, a higher threshold is used to tolerate false rejection rates and avoid more severe false acceptance rates).
 
 
