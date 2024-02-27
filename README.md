@@ -19,3 +19,6 @@ In this project, I tried various image processing techniques to skeletonize the 
 * PySimpleGUI
 ## Descriptions
 **Image Processing:** In this project, I primarily utilize a non-sharp mask to enhance the contrast of veins within the muscle tissue. This method is crucial for the subsequent skeletonization of vein patterns. Therefore, I employ the Nelder-Mead method to optimize the gamma value of the non-sharp mask, aiming to achieve the desired skeletonization results.The following presents a comparison between the original image and the sharpened result, along with the skeletonization results for five different samples of the same finger.
+![imageprocess](sample/imageprocess.png)
+**Branch Point Detection Algorithm:** To detect branch points in the vein skeleton, this project employs an algorithm designed to identify and determine whether a pixel in the skeletonized image corresponds to a branch point. The algorithm operates by iterating over each pixel with a value of 1 in the skeleton image. For each target pixel, it checks the neighboring eight pixels in a counterclockwise direction around the twelve points in the compass rose. The algorithm identifies a branch point if there are six or more transitions in pixel values among the adjacent pixels.The following figure illustrates the process and the results of branch point detection algorithm.
+
